@@ -13,6 +13,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     cursor: default;
 }
 
+a {
+    cursor: pointer;
+}
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block
 }
@@ -752,7 +755,7 @@ h2.month {
 
 /* Media Queries */
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 700px) {
     #wrapper {
         padding: 20px 20px 20px 20px;
     }
