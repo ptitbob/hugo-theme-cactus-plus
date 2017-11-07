@@ -16,6 +16,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 a {
     cursor: pointer;
 }
+
+code {
+	font-family: 'Anonymous Pro';
+}
+
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block
 }
@@ -168,9 +173,11 @@ h2 {
 
 .profile h1 {
     font-weight: 400;
-    letter-spacing: 0px;
-    font-size: 20px;
-    color: #222;
+	letter-spacing: 0px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #555;
+	font-family: 'Gloria Hallelujah', cursive;
 }
 
 .profile h2 {
@@ -178,7 +185,7 @@ h2 {
     font-weight: 300;
     color: #aaa;
     margin-top: 10px;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Gloria Hallelujah', cursive;
     font-style: normal;
 }
 
@@ -343,10 +350,15 @@ em, i {
     text-align: center;
 }
 
+.post header h1 {
+    text-align: center;
+}
+
 .post h1 {
     margin-bottom: 20px;
     color: #222;
     font: 300 32px/1.4em "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: left;
 }
 
 .post h2 {
@@ -419,7 +431,7 @@ p.small {
 
 blockquote {
     padding-left: 15px;
-    border-left: 3px solid #eee;
+    /*border-left: 3px solid #eee;*/
 }
 
 hr {
@@ -428,6 +440,31 @@ hr {
     height: 1px;
     margin: 40px auto;
     background: #eee;
+}
+
+span.code { font-family:Menlo, Monaco, Courier; background-color:#EEE; font-size:14px; }
+
+p code { font-family:Menlo, Monaco, Courier; background-color:#EEE; font-size:14px; box-shadow: none;}
+
+blockquote p code { font-family:Menlo, Monaco, Courier; font-size:14px; background-color: transparent;}
+
+pre	{
+	font-family:Menlo, Monaco, Courier;
+	white-space:pre-wrap;
+	/*border: 1px solid #ddd;*/
+	padding:5px;
+	/*background-color:#fdfdfd;*/
+	/*background-color:#fff;*/
+	/*font-size:14px;*/
+	overflow:auto;
+	border-radius: 3px;
+	/*background: #fdfdfd;*/
+	font-family: 'Source Code Pro',Menlo,monospace;
+	font-size: 0.9em;
+	line-height: 1.5em;
+	font-weight: 500;
+	color: #d0d4d7;
+
 }
 
 table {
@@ -940,4 +977,35 @@ a.symbol:hover {
 
 .page-tags .tags:hover a {
     color: #5694f1;
+}
+
+#wrapper-about {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0px 40px 20px 40px;
+}
+.about {
+	font-family: 'Gloria Hallelujah', cursive !important;
+}
+
+.about h1 {
+	font-family: 'Gloria Hallelujah', cursive !important;
+	color: #555;
+	font-size: 1.5em;
+	margin-bottom: 1em;
+}
+
+.about h2 {
+	font-family: 'Gloria Hallelujah', cursive !important;
+	color: #555;
+	font-size: 1.3em;
+	margin-bottom: 0.8em;
+}
+
+.about p {
+	text-align: left;
+}
+
+.about code {
+    background-color: transparent;
 }
